@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.headerPage {
+    background-color: rgb(20, 42, 94);
+    box-shadow: rgba(243, 5, 255, 0.406) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        
+
+
+        .logo {
+            font-size: 26px;
+            line-height: 30px;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            // color: #f1e2e2;
+            background: -webkit-linear-gradient(rgb(109, 109, 244), #db69dd, cyan);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .content {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                li {
+                    a {
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 14px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        transition: color 0.2s ease-in-out;
+                    }
+                    a:hover{
+                        color: rgb(206, 79, 206);
+                    }
+                }
+
+            }
+            .headerBtn{
+                a{
+                    padding: 15px 40px;
+                    color: #fff;
+                    font-weight: 600;
+                    background-color: #a040a1;
+                    border-radius: 8px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    transition: all 0.3s linear;
+                }
+                a:hover{
+                    background-color: aqua;
+                }
+            }
+
+        }
+
+
+    }
+
+}
